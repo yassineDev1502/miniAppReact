@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
 const name = "Yassine";
 const cognome = "El Kharmoudi";
-const users = [
+const user = [
   { id: 1, name: "Mario" },
   { id: 2, name: "Luca" },
   { id: 3, name: "Anna" }
@@ -28,7 +28,7 @@ return (
     </h3>
     <ul>
       {
-        users.map(x=>(
+        user.map(x=>(
       <li key={x.id}>
         {x.name}
       </li>
